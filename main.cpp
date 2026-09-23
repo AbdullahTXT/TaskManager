@@ -8,8 +8,9 @@ int main()
     cout << "=== Task Manager ===" << endl;
 
     ShowTasks();
-    void AddTask();
-    void EditTask();
+    AddTask();
+    EditTask();
+    DeleteTask();
 
     return 0;
 }
